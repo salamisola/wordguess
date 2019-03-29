@@ -1,0 +1,71 @@
+body {
+    width: 100%;
+	background-image: url("../images/animal-group1.jpg");
+	background-color: grey;
+}
+
+h1 {
+    font-size: 43px;
+	border-bottom: solid 5px grey;
+    background: white;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right:10%;
+    padding: 15px;
+    font-family: 'Concert One', cursive;
+}
+
+h2 {
+    font-family: 'Germania One', cursive;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+img {
+    margin: 10px;
+}
+
+
+.content {
+    padding: 5px;
+    position: relative;
+    margin-bottom: 5px;
+    font-family: 'Germania One', cursive;
+    font-size: 14px;
+	font-weight: bold;
+}
+
+span {
+    padding-left: 3px;
+    padding-right:3px;
+    background-color: yellow; 
+    font-size: 15px;
+}
+
+.background {
+    /*background-image: url("../images/animal-group1.jpg");*/
+	border-top: solid 5px grey;
+}
+
+.container {
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5px;
+    text-align: center;
+	  border: solid 3px grey;
+}
+
+#currentword {
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#scores {
+    padding: 20px;
+}

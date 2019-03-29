@@ -1,14 +1,95 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hangman</title>
+    <title>The Four legged World</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
-<body>
-    
-</body>
+
+    <body>
+        <div>
+            <h1>The Four-legged World</h1>
+        </div>
+
+        <div class="background">
+            <div class="container">
+
+                <h2>Press Any Key To Get Started!</h2>
+                <div>
+                    <img id="image" src="sola\wordguess\assets\images\getStarted.jpg" width="30%" height="150">
+                </div>
+
+                <div>
+                    <h3 id="startword">_ _ _ _ _</h3>
+                </div>
+                <div id="scores">
+				<div class="content">
+                        <h3>Wins:
+                            <span id="wincount"></span>
+                        </h3>
+                    </div>
+                    <div class="content">
+                        <h3>Number of Guesses Remaining: 
+                            <span id="guessesremaining"></span>
+                        </h3>
+                    </div>
+					<div class="content">
+                        <h3>Letters Already Guessed:
+                            <span id="guessletters"></span>
+                        </h3>
+                    </div>
+                    <div class="content">
+                        <h3>Losses:
+                            <span id="losscount"></span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--AUDIO FILES-->
+        <div>
+            <!--arthur-->
+            <audio id="arthur">
+                <source src="./assets/audio/arthur.mp3" type="audio/mp3">
+            </audio>
+            <!--rugrats-->
+            <audio id="rugrats">
+                <source src="./assets/audio/rugrats.mp3" type="audio/mp3">
+            </audio>
+            <!--simpsons-->
+            <audio id="simpsons">
+                <source src="./assets/audio/simpsons.mp3" type="audio/mp3">
+            </audio>
+            <!--scoobydoo-->
+            <audio id="scoobydoo">
+                <source src="./assets/audio/scoobydoo.mp3" type="audio/mp3">
+            </audio>
+            <!--spongebob-->
+            <audio id="spongebob">
+                <source src="./assets/audio/spongebob.mp3" type="audio/mp3">
+            </audio>
+            <!--danny-->
+            <audio id="danny">
+                <source src="./assets/audio/danny.mp3" type="audio/mp3">
+            </audio>
+            <!--teentitans-->
+            <audio id="teent">
+                <source src="./assets/audio/teentitans.mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+
+
+
+        <script src="assets/javascript/game.js"></script>
+
+    </body>
 </html>
